@@ -1,0 +1,5 @@
+python3 /usr/share/java-utils/mvn_file.py ":{*}" apache-commons-jxpath @1
+python3 /usr/share/java-utils/mvn_alias.py : org.apache.commons:
+
+python3 /usr/share/java-utils/pom_editor.py pom_xpath_inject   'pom:properties' \
+'<commons.osgi.import>org.apache.commons.beanutils;resolution:="optional",org.jdom*;resolution:="optional",org.w3c.dom;resolution:="optional",*</commons.osgi.import>'
