@@ -4,7 +4,7 @@
 #
 Name     : jdk-commons-jxpath
 Version  : 1.3
-Release  : 1
+Release  : 2
 URL      : http://www.apache.org/dist/commons/jxpath/source/commons-jxpath-1.3-src.tar.gz
 Source0  : http://www.apache.org/dist/commons/jxpath/source/commons-jxpath-1.3-src.tar.gz
 Summary  : No detailed summary available
@@ -144,7 +144,7 @@ python3 /usr/share/java-utils/pom_editor.py pom_xpath_inject   'pom:properties' 
 python3 /usr/share/java-utils/mvn_build.py -f
 
 %install
-xmvn-install  -R .xmvn-reactor -n commons-jxpath-1.3-src -d %{buildroot}
+xmvn-install  -R .xmvn-reactor -n apache-commons-jxpath -d %{buildroot}
 
 %files
 %defattr(-,root,root,-)
@@ -153,6 +153,6 @@ xmvn-install  -R .xmvn-reactor -n commons-jxpath-1.3-src -d %{buildroot}
 %defattr(-,root,root,-)
 /usr/share/java/apache-commons-jxpath.jar
 /usr/share/java/commons-jxpath.jar
-/usr/share/maven-metadata/commons-jxpath-1.3-src.xml
+/usr/share/maven-metadata/apache-commons-jxpath.xml
 /usr/share/maven-poms/apache-commons-jxpath.pom
 /usr/share/maven-poms/commons-jxpath.pom
