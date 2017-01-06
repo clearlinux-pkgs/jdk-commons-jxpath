@@ -4,7 +4,7 @@
 #
 Name     : jdk-commons-jxpath
 Version  : 1.3
-Release  : 2
+Release  : 3
 URL      : http://www.apache.org/dist/commons/jxpath/source/commons-jxpath-1.3-src.tar.gz
 Source0  : http://www.apache.org/dist/commons/jxpath/source/commons-jxpath-1.3-src.tar.gz
 Summary  : No detailed summary available
